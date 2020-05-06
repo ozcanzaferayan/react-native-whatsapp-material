@@ -1,8 +1,12 @@
 {
   "expo": {
-    "name": "WhatsApp",
-    "slug": "SampleRNWhatsApp2",
-    "platforms": ["ios", "android", "web"],
+    "name": "WhatsApp Material",
+    "slug": "whatsapp-material",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +18,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/ozcanzaferayan/react-native-whatsapp-material"
   }
 }
